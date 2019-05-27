@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Atrous.Core\Atrous.Core.fsproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="../Common/prelude.fs" />
+    <Compile Include="TypeConversion.fs" />
+    <Compile Include="Graphics.fs" />
+    <Compile Include="Input.fs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="CSFML" Version="2.5.0" />
+    <PackageReference Include="SFML.Net" Version="2.5.0" />
+  </ItemGroup>
+</Project>

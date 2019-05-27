@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="../Common/prelude.fs" />
+    <Compile Include="./UoM.fs" />
+    <Compile Include="./BasicTypes.fs" />
+    <Compile Include="./Math.fs" />
+    <Compile Include="./ObjectSystem.fs" />
+    <Compile Include="./Graphics.fs" />
+  </ItemGroup>
+
+</Project>
